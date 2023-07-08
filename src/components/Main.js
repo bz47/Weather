@@ -7,7 +7,7 @@ function Montevideo() {
     <>
       <Nav />
       <div className={styles.Main}>
-        <h1 className={styles.weather}>Weather App</h1>
+        <h1 className={styles.weather}>Weather App!</h1>
       </div>
     </>
   );
