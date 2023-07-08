@@ -1,0 +1,69 @@
+.Rio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/Users/brandonreleford/Desktop/DevProjects/reactApps/weather/public/rio.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 59rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  margin-top: 3%;
+}
+
+.forecast {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 90%;
+  height: 70%;
+  background-color: rgb(192, 185, 185, 0.5);
+  border: solid black 0.5px;
+}
+
+.days {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 3rem;
+}
+
+.select {
+  width: fit-content;
+  height: 2rem;
+}
+
+select {
+  min-width: fit-content;
+  height: 2rem;
+}
+
+.holder {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  overflow: scroll;
+  height: 90%;
+  width: 100%;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 20rem;
+  width: 10rem;
+  margin: 1%;
+  background-color: whitesmoke;
+  border: solid black 1px;
+}

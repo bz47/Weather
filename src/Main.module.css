@@ -1,0 +1,21 @@
+.Main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/Users/brandonreleford/Desktop/DevProjects/reactApps/weather/public/sky.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 61rem;
+}
+
+.weather {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  width: 30%;
+  height: 20%;
+  background-color: rgb(10, 20, 30, 0.6);
+  color: silver;
+}
